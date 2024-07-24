@@ -8,7 +8,8 @@
 	"initializeCommand": [
 		"bash",
 		".devcontainer/init.sh",
-		"/var/www/html/wp-content/${templateOption:contentPath}/${localWorkspaceFolderBasename}"
+		"/var/www/html/wp-content/${templateOption:contentPath}/${localWorkspaceFolderBasename}",
+		"${localEnv:USER}"
 	],
 	"remoteUser": "vscode",
 
